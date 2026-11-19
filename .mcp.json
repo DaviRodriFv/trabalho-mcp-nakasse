@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "figma": {
+      "type": "http",
+      "url": "https://mcp.figma.com/mcp"
+    },
+    "TalkToFigma": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "cursor-talk-to-figma-mcp@0.3.5"]
+    }
+  }
+}

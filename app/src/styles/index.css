@@ -1,0 +1,15 @@
+@import './tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-neutral-50 font-sans text-body text-neutral-900 antialiased;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-primary-600 ring-offset-2;
+    --tw-ring-offset-color: var(--color-neutral-0);
+  }
+}

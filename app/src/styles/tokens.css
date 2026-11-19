@@ -1,0 +1,65 @@
+/* Tokens do design.md (seção 2) — espelham as variáveis do Figma (tokens/tokens.json).
+   Derivados (não estão no design.md): *-50 de success/danger/info, tertiary-700 e on-primary (contraste AA). */
+:root {
+  --color-primary-50: #F0FDFA;
+  --color-primary-600: #0F766E;
+  --color-primary-700: #115E59;
+  --color-on-primary: #FFFFFF;
+
+  --color-secondary-800: #334155;
+  --color-secondary-900: #1E293B;
+
+  --color-tertiary-50: #FFFBEB;
+  --color-tertiary-500: #F59E0B;
+  --color-tertiary-700: #B45309;
+
+  --color-neutral-0: #FFFFFF;
+  --color-neutral-50: #F8FAFC;
+  --color-neutral-200: #E2E8F0;
+  --color-neutral-500: #64748B;
+  --color-neutral-900: #0F172A;
+
+  --color-success: #16A34A;
+  --color-success-50: #F0FDF4;
+  --color-danger: #DC2626;
+  --color-danger-50: #FEF2F2;
+  --color-info: #2563EB;
+  --color-info-50: #EFF6FF;
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 12px 32px rgba(15, 23, 42, 0.12);
+  color-scheme: light;
+}
+
+/* Modo escuro (design.md 2.2) */
+.dark {
+  --color-primary-50: #042F2E;
+  --color-primary-600: #14B8A6;
+  --color-primary-700: #2DD4BF;
+  --color-on-primary: #042F2E;
+
+  --color-secondary-800: #1E293B;
+  --color-secondary-900: #0F172A;
+
+  --color-tertiary-50: #2A1E05;
+  --color-tertiary-700: #FBBF24;
+
+  --color-neutral-0: #111827;
+  --color-neutral-50: #0B1220;
+  --color-neutral-200: #1F2937;
+  --color-neutral-500: #94A3B8;
+  --color-neutral-900: #E5E7EB;
+
+  --color-success: #22C55E;
+  --color-success-50: #052E16;
+  --color-danger: #EF4444;
+  --color-danger-50: #2D0A0A;
+  --color-info: #60A5FA;
+  --color-info-50: #0B1E3F;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.5);
+  color-scheme: dark;
+}
